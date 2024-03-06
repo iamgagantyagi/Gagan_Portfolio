@@ -36,9 +36,9 @@ const socialMediaLinks = {
   github: "https://github.com/iamgagantyagi",
   linkedin: "https://www.linkedin.com/in/1gagan-tyagi/",
   gmail: "gtyagi017@gmail.com",
-  Twitter: "https://gitlab.com/saadpasta",
+  twitter: "https://twitter.com/gtyagi017",
   medium: "https://medium.com/@iamgagantyagi",
-  Instagram: "https://www.instagram.com/gagan.tyagii/",
+  instagram: "https://www.instagram.com/gagan.tyagii/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -121,29 +121,26 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Senior DevOps Engineer",
+      company: "ACL Digital",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "July 2022 – Present",
+      desc: "Leading and Managing end-to-end hybrid infrastructure for clients.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Working on niche DevOps & Cloud Tools i.e Rancher K8s, Ansible, Terraform, Jenkins, AWS, Azure, OCI, DC, Prometheus, Grafana etc",
+        "By harnessing automation for cloud cost optimization, we've achieved annual savings totaling $3 million."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Cloud Engineer",
+      company: "Tata Consultancy Services",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Aug 2020 – June 2022",
+      desc: "Worked in TCS as an ASE and there I worked for the Client as a DevOps Engineer and System Administrator.",
+      descBullets: [
+        "Built CI/CD pipeline using various DevOps tools like Docker, Kubernetes, Jenkins, Ansible, Github, etc.",
+        "Worked on Genesys purecloud as an admin/Developer to manage and monitor all the services hosted on AWS Cloud."
+      ]
     }
   ]
 };
@@ -177,7 +174,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Seth Jai Parkash Mukand Lal Institute Of Engineering And Technology",
-      logo: require("./assets/images/Jmitogo.png"),
+      logo: require("./assets/images/jmitlogo.png"),
       subHeader: "Bachelors of Science in Computer Science",
       duration: "August 2016 - June 2020",
       desc: "I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
@@ -335,25 +332,13 @@ const talkSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-7015034846",
+  email_address: "gtyagi017@gmail.com"
 };
 
 // Twitter Section
@@ -363,7 +348,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -379,7 +364,6 @@ export {
   achievementSection,
   blogSection,
   talkSection,
-  podcastSection,
   contactInfo,
   twitterDetails,
   isHireable
