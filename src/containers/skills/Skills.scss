@@ -1,5 +1,12 @@
 @import "../../_globalColor";
 
+.skills-header-dev {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
 .skills-main-div {
   display: flex;
   width: 100%;
@@ -26,6 +33,12 @@
 }
 .subTitle {
   color: $subTitle;
+}
+
+.skills-text-subtitle {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 60px; /* Add margin-bottom */
 }
 
 /* Media Query */

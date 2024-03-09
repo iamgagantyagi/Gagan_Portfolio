@@ -13,8 +13,9 @@ import Talks from "./talks/Talks";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
-import Profile from "./profile/Profile";
+// import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
+import Contact from "./contact/Contact";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
@@ -53,17 +54,19 @@ const Main = () => {
             <Greeting />
             <Skills />
             <StackProgress />
-            <Education />
             <WorkExperience />
+            <Education />
             <Projects />
             <StartupProject />
             <Achievement />
             <Blogs />
             <Talks />
             <Twitter />
-            <Profile />
+            {/* <Profile /> */}
+            <Contact />
             <Footer />
             <ScrollToTopButton />
+            
           </>
         )}
       </StyleProvider>
