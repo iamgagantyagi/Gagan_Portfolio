@@ -66,7 +66,6 @@ const Main = () => {
             <Contact />
             <Footer />
             <ScrollToTopButton />
-            
           </>
         )}
       </StyleProvider>

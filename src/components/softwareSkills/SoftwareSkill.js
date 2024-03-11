@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import "./SoftwareSkill.scss";
-import { Icon } from "@iconify/react";
+import {Icon} from "@iconify/react";
 
-export default function SoftwareSkill({ section }) {
+export default function SoftwareSkill({section}) {
   const [hoverName, setHoverName] = useState("");
 
-  const handleMouseEnter = (name) => {
+  const handleMouseEnter = name => {
     setHoverName(name);
   };
 
@@ -28,8 +28,13 @@ export default function SoftwareSkill({ section }) {
               </div>
               <ul className="dev-icons">
                 {section.softwareSkills.map((skill, i) => (
-                  <li key={i} className="software-skill-inline" name={skill.skillName} onMouseEnter={() => handleMouseEnter(skill.hoverName)}
-                  onMouseLeave={handleMouseLeave} >
+                  <li
+                    key={i}
+                    className="software-skill-inline"
+                    name={skill.skillName}
+                    onMouseEnter={() => handleMouseEnter(skill.hoverName)}
+                    onMouseLeave={handleMouseLeave}
+                  >
                     {skill.skillType === "devicon" ? (
                       <Icon icon={`devicon:${skill.skillName}`} />
                     ) : (

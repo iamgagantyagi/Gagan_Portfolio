@@ -3,7 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import { Icon } from "@iconify/react";
+import {Icon} from "@iconify/react";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
@@ -26,8 +26,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate DevOps Engineer🚀 who always thrives to work on end to end products which develop sustainable and highly scalable social and technical systems to create impact."
   ),
-  githubLink:
-    "https://github.com/iamgagantyagi",
+  githubLink: "https://github.com/iamgagantyagi",
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -53,155 +52,156 @@ const skillsSection = {
   title: "What I Do ?",
   sections: [
     {
-    subTitle: "Cloud Infra-Architecture",
-    skills: [  
-      emoji(
-        "⚡ Responsible for developing and managing end-to-end hybrid infrastructure encompassing AWS and KVM environments."
-      ),
-      emoji("⚡ Proficient in integrating a variety of DevOps tools such as Jenkins, Rancher-K8s, Kong, Ansible, Terraform, GitHub, Vault, among others to streamline development processes."),
-      emoji(
-        "⚡ Specializing in cloud cost optimization through automation and leveraging open-source tools to drive efficiency and cost-effectiveness in cloud operations."
-      )
-    ],
+      subTitle: "Cloud Infra-Architecture",
+      skills: [
+        emoji(
+          "⚡ Responsible for developing and managing end-to-end hybrid infrastructure encompassing AWS and KVM environments."
+        ),
+        emoji(
+          "⚡ Proficient in integrating a variety of DevOps tools such as Jenkins, Rancher-K8s, Kong, Ansible, Terraform, GitHub, Vault, among others to streamline development processes."
+        ),
+        emoji(
+          "⚡ Specializing in cloud cost optimization through automation and leveraging open-source tools to drive efficiency and cost-effectiveness in cloud operations."
+        )
+      ],
 
-    /* Make Sure to include correct Font Awesome Classname to view your icon
+      /* Make Sure to include correct Font Awesome Classname to view your icon
   https://fontawesome.com/icons?d=gallery */
 
-    softwareSkills: [
-      {
-        skillName: "aws",
-        icon: <Icon icon="logos:aws" />
-      },
-      {
-        skillName: "microsoft-azure",
-        icon: <Icon icon="logos:microsoft-azure" />,
-        hoverName: "Azure"
-
-      },
-      {
-        skillName: "oracle",
-        icon: <Icon icon="logos:oracle" />
-      },
+      softwareSkills: [
         {
-        skillName: "docker-icon",
-        icon: <Icon icon="logos:docker-icon" />,
-        hoverName: "Docker"
-      },
-      {
-        skillName: "rancher-icon",
-        icon: <Icon icon="logos:rancher-icon" />,
-        hoverName: "Rancher"
-      },
-      {
-        skillName: "openshift",
-        icon: <Icon icon="logos:openshift" />
-      },
-      {
-        skillName: "ubuntu",
-        icon: <Icon icon="logos:ubuntu" />
-      },
-      {
-        skillName: "redhat-icon",
-        icon: <Icon icon="logos:redhat-icon" />,
-        hoverName: "redhat"
-      },
-      {
-        skillName: "linux-tux",
-        icon: <Icon icon="logos:linux-tux" />,
-        hoverName: "linux"
-      }
-    ]
-  },
-  {
-    subTitle: "CI/CD Pipeline & Automation",
-    skills: [
-      emoji(
-        "⚡ Strategize and architect a robust CI/CD framework to enhance the build and release cycles, ensuring the integration of security checks for a secure development pipeline."
-      ),
-      emoji (
-        "⚡ Set up and configure Kubernetes Rancher along with its complete ecosystem to support Jenkins CI/CD processes, optimizing deployment workflows and enhancing automation."
-      ),
-      emoji(
-        "⚡ Automate the ecosystem by leveraging Ansible, Bash scripting, and Terraform to streamline deployment processes, improve efficiency, and ensure consistency across infrastructure management tasks."
-      )
-    ],
+          skillName: "aws",
+          icon: <Icon icon="logos:aws" />
+        },
+        {
+          skillName: "microsoft-azure",
+          icon: <Icon icon="logos:microsoft-azure" />,
+          hoverName: "Azure"
+        },
+        {
+          skillName: "oracle",
+          icon: <Icon icon="logos:oracle" />
+        },
+        {
+          skillName: "docker-icon",
+          icon: <Icon icon="logos:docker-icon" />,
+          hoverName: "Docker"
+        },
+        {
+          skillName: "rancher-icon",
+          icon: <Icon icon="logos:rancher-icon" />,
+          hoverName: "Rancher"
+        },
+        {
+          skillName: "openshift",
+          icon: <Icon icon="logos:openshift" />
+        },
+        {
+          skillName: "ubuntu",
+          icon: <Icon icon="logos:ubuntu" />
+        },
+        {
+          skillName: "redhat-icon",
+          icon: <Icon icon="logos:redhat-icon" />,
+          hoverName: "redhat"
+        },
+        {
+          skillName: "linux-tux",
+          icon: <Icon icon="logos:linux-tux" />,
+          hoverName: "linux"
+        }
+      ]
+    },
+    {
+      subTitle: "CI/CD Pipeline & Automation",
+      skills: [
+        emoji(
+          "⚡ Strategize and architect a robust CI/CD framework to enhance the build and release cycles, ensuring the integration of security checks for a secure development pipeline."
+        ),
+        emoji(
+          "⚡ Set up and configure Kubernetes Rancher along with its complete ecosystem to support Jenkins CI/CD processes, optimizing deployment workflows and enhancing automation."
+        ),
+        emoji(
+          "⚡ Automate the ecosystem by leveraging Ansible, Bash scripting, and Terraform to streamline deployment processes, improve efficiency, and ensure consistency across infrastructure management tasks."
+        )
+      ],
 
-    /* Make Sure to include correct Font Awesome Classname to view your icon
+      /* Make Sure to include correct Font Awesome Classname to view your icon
   https://fontawesome.com/icons?d=gallery */
 
-    softwareSkills: [
-      {
-        skillName: "jenkins",
-        icon: <Icon icon="devicon:jenkins" />
-      },
-      {
-        skillName: "github-actions",
-        icon: <Icon icon="logos:github-actions" />,
-        hoverName: "Github-Actions"
-      },
-      {
-        skillName: "chef",
-        icon: <Icon icon="logos:chef" />
-      },
-      {
-        skillName: "ansible",
-        icon: <Icon icon="logos:ansible" />
-      },
-      {
-        skillName: "terraform-icon",
-        icon: <Icon icon="logos:terraform-icon" />,
-        hoverName: "terraform"
-      },
-      {
-        skillName: "travis-ci",
-        icon: <Icon icon="logos:travis-ci" />
-      }
-    ],
-  },
-  {
-    subTitle: "Observaility & Logging Stack ",
-    skills: [
-      emoji(
-        "⚡ Configure end-to-end complete observability stack for production ready infrastructure"
-      ),
-      emoji (
-        "⚡ Design custom metrics/logs dashboards and service status page"
-      ),
-      emoji(
-        "⚡ Migration of observability stack to Open Souce/Enterprise Tools"
-      )
-    ],
+      softwareSkills: [
+        {
+          skillName: "jenkins",
+          icon: <Icon icon="devicon:jenkins" />
+        },
+        {
+          skillName: "github-actions",
+          icon: <Icon icon="logos:github-actions" />,
+          hoverName: "Github-Actions"
+        },
+        {
+          skillName: "chef",
+          icon: <Icon icon="logos:chef" />
+        },
+        {
+          skillName: "ansible",
+          icon: <Icon icon="logos:ansible" />
+        },
+        {
+          skillName: "terraform-icon",
+          icon: <Icon icon="logos:terraform-icon" />,
+          hoverName: "terraform"
+        },
+        {
+          skillName: "travis-ci",
+          icon: <Icon icon="logos:travis-ci" />
+        }
+      ]
+    },
+    {
+      subTitle: "Observaility & Logging Stack ",
+      skills: [
+        emoji(
+          "⚡ Configure end-to-end complete observability stack for production ready infrastructure"
+        ),
+        emoji(
+          "⚡ Design custom metrics/logs dashboards and service status page"
+        ),
+        emoji(
+          "⚡ Migration of observability stack to Open Souce/Enterprise Tools"
+        )
+      ],
 
-    /* Make Sure to include correct Font Awesome Classname to view your icon
+      /* Make Sure to include correct Font Awesome Classname to view your icon
   https://fontawesome.com/icons?d=gallery */
 
-    softwareSkills: [
-      {
-        skillName: "grafana",
-        icon: <Icon icon="devicon:grafana" />
-      },
-      {
-        skillName: "prometheus",
-        icon: <Icon icon="devicon:prometheus" />
-      },
-      {
-        skillName: "datadog",
-        icon: <Icon icon="logos:datadog" />
-      },
-      {
-        skillName: "aws-cloudwatch",
-        icon: <Icon icon="logos:aws-cloudwatch" />,
-        hoverName: "cloudwatch"
-      },
-      {
-        skillName: "pagerduty-icon",
-        icon: <Icon icon="logos:pagerduty-icon" />,
-        hoverName: "pagerduty"
-      }
-    ],
-  }
-],
-  
+      softwareSkills: [
+        {
+          skillName: "grafana",
+          icon: <Icon icon="devicon:grafana" />
+        },
+        {
+          skillName: "prometheus",
+          icon: <Icon icon="devicon:prometheus" />
+        },
+        {
+          skillName: "datadog",
+          icon: <Icon icon="logos:datadog" />
+        },
+        {
+          skillName: "aws-cloudwatch",
+          icon: <Icon icon="logos:aws-cloudwatch" />,
+          hoverName: "cloudwatch"
+        },
+        {
+          skillName: "pagerduty-icon",
+          icon: <Icon icon="logos:pagerduty-icon" />,
+          hoverName: "pagerduty"
+        }
+      ]
+    }
+  ],
+
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -235,7 +235,6 @@ const workExperiences = {
   ]
 };
 
-
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -267,7 +266,8 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Seth Jai Parkash Mukand Lal Institute Of Engineering And Technology",
+      schoolName:
+        "Seth Jai Parkash Mukand Lal Institute Of Engineering And Technology",
       logo: require("./assets/images/jmitlogo.png"),
       subHeader: "Bachelors of Science in Computer Science",
       duration: "August 2016 - June 2020",
@@ -293,7 +293,8 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects and Research",
-  subtitle: "SOME OPEN-SOURCE PROJECTS AND RESEARCH THAT I WORKED ON TO ENHANCE MY SKILL SET",
+  subtitle:
+    "SOME OPEN-SOURCE PROJECTS AND RESEARCH THAT I WORKED ON TO ENHANCE MY SKILL SET",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
@@ -341,7 +342,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://www.credly.com/earner/earned/badge/2f69d21d-9dbb-42f0-945f-e4d83f67c515"
-        },
+        }
       ]
     },
     {
@@ -360,11 +361,15 @@ const achievementSection = {
 
     {
       title: "Research Article on SDN Firewall",
-      subtitle: "I researched SDN firewall to Analyze Network Security Issues and Its Attack and Defence.",
+      subtitle:
+        "I researched SDN firewall to Analyze Network Security Issues and Its Attack and Defence.",
       image: require("./assets/images/researchgate.png"),
       imageAlt: "ResearchGate Logo",
       footerLink: [
-        {name: "Article", url: "https://www.researchgate.net/profile/Gagan-Tyagi-2/publications"},
+        {
+          name: "Article",
+          url: "https://www.researchgate.net/profile/Gagan-Tyagi-2/publications"
+        }
       ]
     }
   ],
@@ -407,7 +412,6 @@ const talkSection = {
   ],
   display: false // Set false to hide this section, defaults to true
 };
-
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),

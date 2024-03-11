@@ -66,7 +66,7 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-        {socialMediaLinks.instagram ? (
+      {socialMediaLinks.instagram ? (
         <a
           href={socialMediaLinks.instagram}
           className="icon-button instagram"
